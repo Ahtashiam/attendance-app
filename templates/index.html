@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Employee Attendance</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>Employee Attendance Form</h1>
+    <form method="POST" action="/">
+      <label>Name:</label>
+      <input type="text" name="name" required>
+
+      <label>Designation:</label>
+      <input type="text" name="designation" required>
+
+      <label>Attendance:</label>
+      <select name="attendance">
+        <option value="Present">Present</option>
+        <option value="Absent">Absent</option>
+      </select>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <a href="/generate_excel" class="download-btn">📥 Generate Excel</a>
+  </div>
+</body>
+</html>

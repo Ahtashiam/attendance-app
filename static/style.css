@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f4f8;
+  }
+  
+  .container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  input, select {
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 4px;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .download-btn {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    background: #28a745;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  
